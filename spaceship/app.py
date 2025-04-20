@@ -8,7 +8,7 @@ from spaceship.routers import api, health
 
 def make_app(settings: Settings) -> FastAPI:
 
-    print("Ашомка Андрій")
+    print("name and surname were there")
 
     app = FastAPI(
         debug=settings.debug,
